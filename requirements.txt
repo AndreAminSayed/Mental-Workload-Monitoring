@@ -1,0 +1,6 @@
+numpy==2.2.5
+scipy
+matplotlib
+scikit-learn
+mne
+asrpy
