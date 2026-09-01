@@ -52,7 +52,7 @@ Sliding windows of size 1 second (500 samples at 500Hz) with an overlap are proc
 ### 4. Neural Network Training
 An MLP Regressor is configured with a `(64, 32)` hidden layer architecture and ReLU activation. 
 - Input features are standardized using `StandardScaler`.
-- The model achieves an $R^2$ Score of **0.94** and an MSE of **0.02** on the validation set.
+- The model achieves an $R^2$ Score of **0.94** and an MSE of **0.01** on the validation set.
 
 ![Training Loss and $R^2$ Scores](graphs/Regressor_Scores.png)
 
